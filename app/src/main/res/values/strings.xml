@@ -1,0 +1,27 @@
+<resources>
+    <!--basic string-->
+    <string name="app_name">furry检测器</string>
+
+    <!--question string-->
+    <string name="question_sample">SampleQuestion</string>
+    <string name="question_first">面向福瑞控的APP开发</string>
+    <string name="question_second">你也是福瑞控吗？</string>
+    <string name="question_third">兽耳娘是furry吗？</string>
+    <string name="question_forth">卡面来打是furry吗？</string>
+    <string name="question_fifth">陈睿是furry吗？</string>
+
+    <!--button string-->
+    <string name="but_01">是的 没错</string>
+    <string name="but_02">也许是吧</string>
+    <string name="next_button">~接下来呢(　ﾟ∀ﾟ) ﾉ♡</string>
+
+    <!--toast string-->
+    <string name="correct_toast">呐呐(｡･ω･｡)ﾉ♡\n欧尼酱~furry真是太好了！</string>
+    <string name="incorrect_toast">呐呐(｡･ω･｡)ﾉ♡\n只是也许嘛...</string>
+
+    <!--Level.control-->
+    <string name="level01_00_01">[版本号1.0.1]</string>
+    <string name="level01_00_02">[版本号1.0.2]新增：1横屏UI 2新增问题答对数量 3修复了重复答题和跳过的bug{下一版本将适配屏幕旋转}</string>
+    <string name="level01_00_03">[版本号1.0.3]新增：屏幕旋转不会改变问题位置{下一版本敬请期待}</string>
+
+</resources>

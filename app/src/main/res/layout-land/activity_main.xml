@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF5B68FF"
+        android:textSize="20sp"
+        tools:text="@string/question_sample"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/first_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/main_dark"
+            android:text="@string/but_01"
+            android:textColor="@color/main_bright"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/second_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/main_dark"
+            android:text="@string/but_02"
+            android:textColor="@color/main_bright"
+            android:textSize="20sp"></Button>
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center_vertical|right"
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="@string/level01_00_03"></TextView>
+</FrameLayout>
